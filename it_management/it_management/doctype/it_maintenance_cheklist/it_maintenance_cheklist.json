@@ -8,6 +8,7 @@
   "detail_information_section",
   "naming_series",
   "date",
+  "it_vendor",
   "column_break_5",
   "by_user",
   "it_support",
@@ -64,9 +65,15 @@
    "fieldname": "it_support",
    "fieldtype": "Data",
    "label": "IT Support"
+  },
+  {
+   "fieldname": "it_vendor",
+   "fieldtype": "Link",
+   "label": "IT Vendor",
+   "options": "Master Vendor IT"
   }
  ],
- "modified": "2020-08-30 16:30:02.006677",
+ "modified": "2020-08-30 17:32:00.082836",
  "modified_by": "Administrator",
  "module": "It Management",
  "name": "IT Maintenance Cheklist",

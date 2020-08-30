@@ -9,8 +9,7 @@
  "field_order": [
   "brand",
   "description",
-  "defaults",
-  "brand_defaults"
+  "defaults"
  ],
  "fields": [
   {
@@ -36,16 +35,10 @@
    "fieldname": "defaults",
    "fieldtype": "Section Break",
    "label": "Defaults"
-  },
-  {
-   "fieldname": "brand_defaults",
-   "fieldtype": "Table",
-   "label": "Brand Defaults",
-   "options": "Item Default"
   }
  ],
  "icon": "fa fa-certificate",
- "modified": "2020-08-30 10:19:06.816645",
+ "modified": "2020-08-30 18:18:47.469354",
  "modified_by": "Administrator",
  "module": "It Management",
  "name": "Master Brand",
