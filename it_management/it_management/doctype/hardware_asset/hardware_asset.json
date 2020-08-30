@@ -1,0 +1,91 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-08-30 10:32:46.516420",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "detail_information_section",
+  "naming_series",
+  "hardware_group",
+  "hardware_type",
+  "column_break_5",
+  "manufacture",
+  "model",
+  "serial_number",
+  "section_break_9"
+ ],
+ "fields": [
+  {
+   "fieldname": "detail_information_section",
+   "fieldtype": "Section Break",
+   "label": "Detail Information"
+  },
+  {
+   "bold": 1,
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "IT Asset No",
+   "options": "ITSM/HWA/.YYYY.-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "hardware_group",
+   "fieldtype": "Select",
+   "label": "Hardware Group",
+   "options": "Computer\nTablet\nNetwork\nStorage\nServer\nPrinter\nScanner"
+  },
+  {
+   "fieldname": "hardware_type",
+   "fieldtype": "Select",
+   "label": "Hardware Type",
+   "options": "Laptop\nComputer\nWork Station\nServer\nNAS\nSAN\nMini Computer\nExternal disk\nPrinter Deskjet\nPrinter Laserjet\nScanner\nPhotocopy Machine\nOther Device"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "manufacture",
+   "fieldtype": "Link",
+   "label": "Manufacture",
+   "options": "Master Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number "
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "modified": "2020-08-30 10:46:34.113518",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Hardware Asset",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

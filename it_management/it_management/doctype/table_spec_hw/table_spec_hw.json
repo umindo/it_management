@@ -1,0 +1,62 @@
+{
+ "creation": "2020-08-30 10:50:24.478595",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "display",
+  "ram",
+  "hdd",
+  "column_break_4",
+  "network_intercafe_1",
+  "network_intercafe_2",
+  "other"
+ ],
+ "fields": [
+  {
+   "fieldname": "display",
+   "fieldtype": "Data",
+   "label": "Display"
+  },
+  {
+   "fieldname": "ram",
+   "fieldtype": "Data",
+   "label": "RAM"
+  },
+  {
+   "fieldname": "hdd",
+   "fieldtype": "Data",
+   "label": "HDD"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "network_intercafe_1",
+   "fieldtype": "Data",
+   "label": "Network Intercafe 1"
+  },
+  {
+   "fieldname": "network_intercafe_2",
+   "fieldtype": "Data",
+   "label": "Network Intercafe 2"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-30 10:50:45.860404",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Table Spec HW",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

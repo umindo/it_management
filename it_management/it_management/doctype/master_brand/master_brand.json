@@ -1,0 +1,100 @@
+{
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:brand",
+ "creation": "2020-08-30 10:19:06.816645",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "brand",
+  "description",
+  "defaults",
+  "brand_defaults"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand Name",
+   "oldfieldname": "brand",
+   "oldfieldtype": "Data",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Description",
+   "oldfieldname": "description",
+   "oldfieldtype": "Text",
+   "width": "300px"
+  },
+  {
+   "fieldname": "defaults",
+   "fieldtype": "Section Break",
+   "label": "Defaults"
+  },
+  {
+   "fieldname": "brand_defaults",
+   "fieldtype": "Table",
+   "label": "Brand Defaults",
+   "options": "Item Default"
+  }
+ ],
+ "icon": "fa fa-certificate",
+ "modified": "2020-08-30 10:19:06.816645",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Master Brand",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Item Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User"
+  }
+ ],
+ "quick_entry": 1,
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC"
+}
