@@ -1,0 +1,91 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-08-30 16:22:58.417754",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "detail_information_section",
+  "naming_series",
+  "date",
+  "column_break_5",
+  "by_user",
+  "it_support",
+  "section_break_9",
+  "item",
+  "problem"
+ ],
+ "fields": [
+  {
+   "fieldname": "detail_information_section",
+   "fieldtype": "Section Break",
+   "label": "Detail Information"
+  },
+  {
+   "bold": 1,
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "No",
+   "options": "ITSM/CKL/.YYYY.-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "by_user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "Master User"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Table",
+   "label": "Item",
+   "options": "Cheklist Item Table"
+  },
+  {
+   "fieldname": "problem",
+   "fieldtype": "Table",
+   "label": "Discovered Problem",
+   "options": "Cheklist Problem Table"
+  },
+  {
+   "fieldname": "it_support",
+   "fieldtype": "Data",
+   "label": "IT Support"
+  }
+ ],
+ "modified": "2020-08-30 16:30:02.006677",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "IT Maintenance Cheklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

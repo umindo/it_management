@@ -13,7 +13,16 @@
   "manufacture",
   "model",
   "serial_number",
-  "section_break_9"
+  "section_break_9",
+  "spesification",
+  "status_section",
+  "hardware_status",
+  "assign_to",
+  "ip_address",
+  "column_break_15",
+  "asset_of",
+  "company_name",
+  "userpass_login"
  ],
  "fields": [
   {
@@ -64,9 +73,57 @@
   {
    "fieldname": "section_break_9",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "spesification",
+   "fieldtype": "Table",
+   "label": "Spesification",
+   "options": "Table Spec HW"
+  },
+  {
+   "fieldname": "status_section",
+   "fieldtype": "Section Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "hardware_status",
+   "fieldtype": "Select",
+   "label": "Hardware Status",
+   "options": "Running\nDown\nProblem\nBroken"
+  },
+  {
+   "fieldname": "assign_to",
+   "fieldtype": "Link",
+   "label": "Assign To",
+   "options": "Master User"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Select",
+   "label": "IP Address",
+   "options": "DHCP\nSTATIC"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "asset_of",
+   "fieldtype": "Data",
+   "label": "Asset Of"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "userpass_login",
+   "fieldtype": "Data",
+   "label": "User/Pass Login"
   }
  ],
- "modified": "2020-08-30 10:46:34.113518",
+ "modified": "2020-08-30 15:16:40.948472",
  "modified_by": "Administrator",
  "module": "It Management",
  "name": "Hardware Asset",

@@ -1,0 +1,106 @@
+{
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:employee_name",
+ "creation": "2020-08-30 15:16:21.039042",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "nik",
+  "column_break_3",
+  "employe_type",
+  "employe_asset"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employe Name",
+   "oldfieldname": "brand",
+   "oldfieldtype": "Data",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "nik",
+   "fieldtype": "Data",
+   "label": "NIK"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employe_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Employe Type",
+   "oldfieldname": "description",
+   "oldfieldtype": "Text",
+   "options": "Permanent\nContract\nTraining",
+   "width": "300px"
+  },
+  {
+   "fieldname": "employe_asset",
+   "fieldtype": "Link",
+   "label": "Employe Asset",
+   "options": "Hardware Asset"
+  }
+ ],
+ "icon": "fa fa-certificate",
+ "modified": "2020-08-30 15:39:04.924206",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Master User",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Item Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User"
+  }
+ ],
+ "quick_entry": 1,
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC"
+}

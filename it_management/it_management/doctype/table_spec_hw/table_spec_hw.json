@@ -10,23 +10,33 @@
   "column_break_4",
   "network_intercafe_1",
   "network_intercafe_2",
-  "other"
+  "other",
+  "additional_spec_section",
+  "ram_upgradeable",
+  "column_break_10",
+  "hdd_upgradeable"
  ],
  "fields": [
   {
    "fieldname": "display",
-   "fieldtype": "Data",
-   "label": "Display"
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Display",
+   "options": "10\"\n11\"\n13\"\n14\"\n15\"\n19.5\"\n20\""
   },
   {
    "fieldname": "ram",
-   "fieldtype": "Data",
-   "label": "RAM"
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "RAM",
+   "options": "512MB\n1GB\n2Gb\n4GB\n6GB\n8GB\n10GB\n12GB\n14GB\n16GB\n18GB\n32GB\n64GB\n128GB"
   },
   {
    "fieldname": "hdd",
-   "fieldtype": "Data",
-   "label": "HDD"
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "HDD",
+   "options": "120GB\n250GB\n300GB\n500GB\n1TB\n2TB\n4TB\n8TB\n16TB\n32TB"
   },
   {
    "fieldname": "column_break_4",
@@ -35,6 +45,7 @@
   {
    "fieldname": "network_intercafe_1",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Network Intercafe 1"
   },
   {
@@ -46,10 +57,31 @@
    "fieldname": "other",
    "fieldtype": "Data",
    "label": "Other"
+  },
+  {
+   "fieldname": "additional_spec_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Spec "
+  },
+  {
+   "fieldname": "ram_upgradeable",
+   "fieldtype": "Select",
+   "label": "Ram Upgradeable",
+   "options": "512MB\n1GB\n2Gb\n4GB\n6GB\n8GB\n10GB\n12GB\n14GB\n16GB\n18GB\n32GB\n64GB\n128GB"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hdd_upgradeable",
+   "fieldtype": "Select",
+   "label": "HDD Upgradeable",
+   "options": "120GB\n250GB\n300GB\n500GB\n1TB\n2TB\n4TB\n8TB\n16TB\n32TB"
   }
  ],
  "istable": 1,
- "modified": "2020-08-30 10:50:45.860404",
+ "modified": "2020-08-30 15:09:15.145413",
  "modified_by": "Administrator",
  "module": "It Management",
  "name": "Table Spec HW",

@@ -1,0 +1,51 @@
+{
+ "creation": "2020-08-30 16:20:22.062320",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_nameno",
+  "problem",
+  "expire",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_nameno",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Asset Name/No",
+   "options": "Hardware Asset"
+  },
+  {
+   "fieldname": "problem",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Problem",
+   "options": "Good\nFair\nBad"
+  },
+  {
+   "fieldname": "expire",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Resolution"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Complete\nProgress\nWaiting  Information PIC"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-30 16:20:22.062320",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Cheklist Problem Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

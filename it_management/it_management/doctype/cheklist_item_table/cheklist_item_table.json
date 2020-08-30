@@ -1,0 +1,44 @@
+{
+ "creation": "2020-08-30 16:18:01.143862",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "software_name",
+  "licenstype",
+  "expire"
+ ],
+ "fields": [
+  {
+   "fieldname": "software_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Internet\nRouter\nSwitch\nLAN Network\nWLAN Network\nServers Hardware\nServers Software\nClients Hardware\nClients Software"
+  },
+  {
+   "fieldname": "licenstype",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Good\nFair\nBad"
+  },
+  {
+   "fieldname": "expire",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-30 16:18:28.568631",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Cheklist Item Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
