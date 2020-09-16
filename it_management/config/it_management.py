@@ -44,6 +44,12 @@ def get_data():
                                         "name": "IT Maintenance Cheklist",
                                         "description": _("Monthly salary statement."),
                                 },
+{
+                                        "type": "doctype",
+                                        "label": "Incident and problem",
+                                        "name": "Incident and problem",
+                                        "description": _("Monthly salary statement."),
+                                },
 
 
 				]

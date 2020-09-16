@@ -1,7 +1,7 @@
 {
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "field:vendor_name",
+ "autoname": "field:technician",
  "creation": "2020-08-30 16:32:26.744145",
  "doctype": "DocType",
  "document_type": "Setup",
@@ -28,11 +28,12 @@
    "label": "Technician",
    "oldfieldname": "description",
    "oldfieldtype": "Text",
+   "unique": 1,
    "width": "300px"
   }
  ],
  "icon": "fa fa-certificate",
- "modified": "2020-08-30 16:43:34.102633",
+ "modified": "2020-09-04 16:10:00.961035",
  "modified_by": "Administrator",
  "module": "It Management",
  "name": "Master Vendor IT",

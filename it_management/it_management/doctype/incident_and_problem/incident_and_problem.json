@@ -1,0 +1,144 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-09-04 15:43:34.509780",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "detail_information_section",
+  "naming_series",
+  "date",
+  "report_from",
+  "user",
+  "komputer",
+  "column_break_5",
+  "incident_category",
+  "incident_prioritazion",
+  "ticket_creation",
+  "status",
+  "date_closed",
+  "section_break_7",
+  "problem_detail",
+  "column_break_9",
+  "resolution",
+  "technician"
+ ],
+ "fields": [
+  {
+   "fieldname": "detail_information_section",
+   "fieldtype": "Section Break",
+   "label": "Detail Information"
+  },
+  {
+   "bold": 1,
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Ticket No",
+   "options": "ITSM/ITKT/.YYYY.-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_from",
+   "fieldtype": "Select",
+   "label": "Report From",
+   "options": "Telphone\nWhatsapp\nSMS\nE-Mail\nDirect"
+  },
+  {
+   "fieldname": "incident_category",
+   "fieldtype": "Select",
+   "label": "Incident Category",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "fieldname": "incident_prioritazion",
+   "fieldtype": "Select",
+   "label": "Incident Prioritazion",
+   "options": "Critical\nHigh\nMedium\nLow"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "problem_detail",
+   "fieldtype": "Text",
+   "label": "Problem Detail"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "resolution",
+   "fieldtype": "Text",
+   "label": "Resolution"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClosed"
+  },
+  {
+   "depends_on": "eval:doc.status == \"closed\"",
+   "fieldname": "date_closed",
+   "fieldtype": "Date",
+   "label": "Date Closed"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "komputer",
+   "fieldtype": "Link",
+   "label": "Komputer",
+   "options": "Hardware Asset"
+  },
+  {
+   "fieldname": "ticket_creation",
+   "fieldtype": "Select",
+   "label": "Ticket Creation",
+   "options": "Incident\nService Request"
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "label": "Technician",
+   "options": "Master Vendor IT"
+  }
+ ],
+ "modified": "2020-09-04 16:14:28.907970",
+ "modified_by": "Administrator",
+ "module": "It Management",
+ "name": "Incident and problem",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
